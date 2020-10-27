@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 90%;
+    margin: 40px;
+    background-color: #3116ED;
+    background-image: url(https://images.unsplash.com/photo-1603672881075-d3c702656586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+blockquote {
+    margin: auto;
+    font-size: 160%;
+    background-color: #B8B8B8;
+    border-left: 3px solid firebrick;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    opacity: 0.6;
+    
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #A9A9A9;
+}
+
+
+.masterTooltip {
+        position:absolute;
+        border:1px solid #333;
+        background-color:#161616;
+        padding:10px;
+        color:#fff;
+        font-size:6px Arial;
+        text-decoration: none;
+        border-radius: 5px;
+}
