@@ -9,7 +9,7 @@
         max-width: 90%;
         margin: 40px;
         background-color: #3116ED;
-        background-image: url(https://images.unsplash.com/photo-1603672881075-d3c702656586?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+        background-image: url(https://images.unsplash.com/photo-1492496913980-501348b61469?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
         background-repeat: no-repeat;
         background-position: right bottom;
         background-size: cover;
@@ -152,6 +152,7 @@
     h2 {
         text-align: center;
         margin: 30px;
+        text-decoration: underline;
     }
     /* CARD 1 */
     section.card1 {
