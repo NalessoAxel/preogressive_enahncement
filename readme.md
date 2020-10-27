@@ -19,4 +19,4 @@ This is a the story of an old chinese farmer.
 - CSS3 (we use flexbox instead of float :hankey:
   )
 
-  ![Preview](https://zupimages.net/viewer.php?id=20/44/n0ba.png)
+  ![Preview](/Preview_header.jpg)
