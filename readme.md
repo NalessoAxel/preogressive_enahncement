@@ -10,22 +10,13 @@ This is a the story of an old chinese farmer.
 
 
 ## What's the purpose of this?
+
   Our goal for this exercice was to learn the basics from html & CSS.
-  We start with the squeleton of our landing page wich is the HTML.
-  We start with the header, we use h1 attribute to set the title of the page.
 
-  Then we had to make a list of stupid things :smirk: using 
-  ```
-<ul>, <li>
-``` 
+## Write in what?
 
-  After, we put some images to our Html. using 
-  ```
-  <img>
-  ```
-  Then we add some 
-  ```
-   <p>
-  ```
-  to our text.
-  
+- HTML 5
+- CSS3 (we use flexbox instead of float :hankey:
+  )
+
+  ![Preview](https://zupimages.net/viewer.php?id=20/44/n0ba.png)
