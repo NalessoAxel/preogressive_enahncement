@@ -128,15 +128,15 @@
     }
     
     ul li:nth-child(1) {
-        background-image: url(/bien.png);
+        background-image: url(css/bien.png);
     }
     
     ul li:nth-child(2) {
-        background-image: url(/mal.png);
+        background-image: url(css/mal.png);
     }
     
     ul li:nth-child(3) {
-        background-image: url(/chat.png);
+        background-image: url(css/chat.png);
     }
     /* TOOLTIP */
     .masterTooltip {
