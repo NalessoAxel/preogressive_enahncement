@@ -80,16 +80,14 @@
     header:nth-child(1) {
         background-color: yellow;
     }
-    caption {
-        /* text-align: center; */
-    }
+    
     /* LINK */
     a {
         text-decoration: none;
         color: #161616;
         /* transform: scale(1.5); */
         transition: transform .2s;
-        background-color: white;
+        /* background-color: white; */
     }
     
     a:visited {
@@ -151,6 +149,7 @@
         text-decoration: none;
         border-radius: 5px;
         font-size: 16px;
+        margin:  0 5px;
     }
     h2 {
         text-align: center;
@@ -170,18 +169,31 @@
     section.card1 p {
         display: flex;
         flex-direction: column;
-        align-items: center;
+       
         margin-top: 20px;
         margin-left: 30px;
         color: grey;
         font-weight: bold;
 
     }
+    section.card1 h2 {
+        display: flex;
+        flex-direction: row;
+       
+       
+    }
     /* CARD 2 */
+
     section.card2 {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-start;
+    }
+    section.card2 h2 {
+        display: flex;
+        flex-direction: row;
+       
+       
     }
     section.card2 img {
         width: 50%;
@@ -198,4 +210,11 @@
     section.card2 caption {
         display: flex;
 
+    }
+    hr {
+        margin: 20px;
+    }
+    h3 {
+        text-align: right;
+        margin: 0 35px;
     }
