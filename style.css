@@ -126,15 +126,15 @@
     }
     
     ul li:nth-child(1) {
-        background-image: url(/css/bien.png);
+        background-image: url(/bien.png);
     }
     
     ul li:nth-child(2) {
-        background-image: url(/css/mal.png);
+        background-image: url(/mal.png);
     }
     
     ul li:nth-child(3) {
-        background-image: url(/css/chat.png);
+        background-image: url(/chat.png);
     }
     /* TOOLTIP */
     .masterTooltip {
@@ -167,7 +167,7 @@
     section.card1 p {
         display: flex;
         flex-direction: column;
-       
+        align-items: center;
         margin-top: 20px;
         margin-left: 30px;
         color: grey;
