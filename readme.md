@@ -4,7 +4,7 @@
   
 ## What is it?
 
-It's a single langding page.
+It's a single page.
 This is a the story of an old chinese farmer.
 
 
