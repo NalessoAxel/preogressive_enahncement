@@ -4,7 +4,6 @@
         box-sizing: border-box;
     }
     /* BODY*/
-
     body {
         max-width: 90%;
         margin: 40px;
@@ -16,6 +15,7 @@
         color: grey;
         font-size: 16px;
     }
+
     /* HEADER */
     header {
         display: flex;
@@ -30,11 +30,6 @@
         display: flex;
         flex-direction: column;
     }
-   /*  img {
-        max-width: 100%;
-        height: auto;
-    } */
-    
     blockquote {
         margin: auto;
         font-size: 160%;
@@ -46,7 +41,6 @@
         /* opacity: 0.6; */
         font-style: italic;
     }
-    
     p {
         font-family: 'PT Serif', serif;
         letter-spacing: 1px;
@@ -56,31 +50,26 @@
     .boldp {
         font-weight: bold;
     }
-    
     .villagers {
         border-left: 2px solid firebrick;
         font-style: italic;
     }
-    
     .farmer {
         border-left: 2px solid green;
         font-style: italic;
     }
-    
     .bad {
         text-transform: capitalize;
         color: red;
     }
-    
     .good {
         text-transform: capitalize;
         color: green;
     }
-    
     header:nth-child(1) {
         background-color: yellow;
     }
-    
+
     /* LINK */
     a {
         text-decoration: none;
@@ -89,15 +78,13 @@
         transition: transform .2s;
         /* background-color: white; */
     }
-    
-    
-    
     a:hover {
         text-decoration: underline;
         transform: scale(1.5);
         transition: transform .2s;
         color: grey;
     }
+
     /* TABLE */
     table {
         border: solid;
@@ -111,31 +98,29 @@
     tr:nth-child(even) td:nth-child(odd) {
         background-color: white;
     }
+
     /* LISTE */
     ul {
         display: inline-block;
         width: fit-content;
         margin: 20px;
     }
-    
     li {
         background-position: right;
         background-repeat: no-repeat;
         padding-right: 30px;
         background-size: contain;
     }
-    
     ul li:nth-child(1) {
         background-image: url(https://i.ibb.co/rmFck1w/bien.png);
     }
-    
     ul li:nth-child(2) {
         background-image: url(https://i.ibb.co/bXLGvzb/mal.png)
     }
-    
     ul li:nth-child(3) {
         background-image: url(https://i.ibb.co/HVZbnvM/chat.png);
     }
+
     /* TOOLTIP */
     .masterTooltip {
         position: absolute;
@@ -154,6 +139,7 @@
         margin: 30px;
         text-decoration: underline;
     }
+
     /* CARD 1 */
     section.card1 {
         display: flex;
@@ -161,28 +147,20 @@
         justify-content: flex-start;
         margin: 50px;
     }
-    /* section.card1 img {
-        width: 50%;
-        height: auto;
-    } */
     section.card1 p {
         display: flex;
-        
         align-items: center;
         margin-top: 20px;
         margin-left: 30px;
         color: grey;
         font-weight: bold;
-
     }
     section.card1 h2 {
         display: flex;
-        flex-direction: row;
-       
-       
+        flex-direction: row;   
     }
+    
     /* CARD 2 */
-
     section.card2 {
         display: flex;
         flex-direction: row-reverse;
@@ -190,14 +168,8 @@
     }
     section.card2 h2 {
         display: flex;
-        flex-direction: row;
-       
-       
+        flex-direction: row;  
     }
-    /* section.card2 img {
-        width: 50%;
-        height: auto;
-    } */
     section.card2 p {
         display: flex;
         flex-direction: column;
@@ -205,10 +177,6 @@
         margin-top: 20px;
         margin-left: 30px;
         color: grey;
-    }
-    section.card2 caption {
-        display: flex;
-
     }
     hr {
         margin: 20px;
