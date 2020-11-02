@@ -60,6 +60,7 @@
     .villagers {
         border-left: 2px solid firebrick;
         font-style: italic;
+        text-align: left;
     }
     .farmer {
         border-left: 2px solid green;
@@ -73,7 +74,7 @@
         text-transform: capitalize;
         color: green;
     }
-    header:nth-child(1) {
+    header h1{
         background-color: yellow;
     }
 
@@ -160,6 +161,7 @@
         margin: 0 30px;
         
     }
+    
     section img {
         width: auto;
         height: auto;
@@ -190,4 +192,8 @@
         }
     figcaption {
         margin: 0 30px;
+    }
+    q {
+        display: list-item;
+        list-style: none;
     }
